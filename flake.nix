@@ -13,6 +13,8 @@
         devShells.default = pkgs.mkShell {
           name = "nix-ctf";
           packages = with pkgs; [
+            pwndbg
+            python3
             tshark
             zsh
           ];
