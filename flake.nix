@@ -16,7 +16,7 @@
             binwalk
             imhex
             pwndbg
-            python3
+            (python3.withPackages (python-pkgs: [ python-pkgs.pandas ]))
             tshark
             zsh
           ];
