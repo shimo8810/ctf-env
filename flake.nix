@@ -11,6 +11,7 @@
       in
       {
         devShells.default = pkgs.mkShell {
+          name = "nix-ctf";
           packages = with pkgs; [
             zsh
           ];
