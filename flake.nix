@@ -13,6 +13,7 @@
         devShells.default = pkgs.mkShell {
           name = "nix-ctf";
           packages = with pkgs; [
+            imhex
             pwndbg
             python3
             tshark
