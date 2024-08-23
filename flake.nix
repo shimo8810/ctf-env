@@ -17,7 +17,7 @@
             imhex
             pwndbg
             (python3.withPackages (python-pkgs: with python-pkgs; [
-              pandas
+              pwntools
             ]))
             tshark
             zsh
